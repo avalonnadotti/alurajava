@@ -31,6 +31,7 @@ public class TestaMetodo {
 		bonus.deposita(1000);
 		bonus.titular="Bonus";
 		
+		System.out.println("Sabendo que possui bonus");
 		
 		if (bonus.transfere(50, conta)) {
 			
@@ -39,7 +40,8 @@ public class TestaMetodo {
 		{
 			System.out.println("Nem com o bonus de "+conta.saldo+"R$");
 		}
-		System.out.println(conta.titular+" Sendo que o Saldo é "+conta.saldo+" e o "+bonus.titular+" "+bonus.saldo);
+		
+		System.out.println(conta.titular+" sabendo que o Saldo é "+conta.saldo+" Ainda tem o "+bonus.titular+" "+bonus.saldo);
 		
 	}
 	
